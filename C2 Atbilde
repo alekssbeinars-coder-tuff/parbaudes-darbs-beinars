@@ -1,0 +1,17 @@
+# ----------------------------------------------------------------------
+# C2. Degviela un braucieni
+# ----------------------------------------------------------------------
+
+# Tvertnē ir 50 litri degvielas. Viens brauciens patērē 7 litrus. Izvadi, cik braucienu var veikt un cik degvielas paliek pāri. Visu kodu raksti pats.
+#
+# Šis fails ir tukšs. Visu kodu raksti pats zem šīs rindas.
+# ----------------------------------------------------------------------                                                                                                Katru rezultāta rindu beidz ar punktu.
+
+baka=50
+braucieni=0
+while baka>=7:
+    baka=baka-7
+    braucieni=braucieni+1
+if baka<7:
+    print("Braucieni:",braucieni)
+    print("Palikusī degviela:",baka)
