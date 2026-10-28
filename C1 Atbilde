@@ -1,0 +1,20 @@
+# ----------------------------------------------------------------------
+# C1. Atzīmju kopsavilkums
+# ----------------------------------------------------------------------
+
+# Kodā izveido sarakstu ar septiņām atzīmēm. Izvadi to skaitu, summu, vidējo, augstāko un zemāko. Visu kodu raksti pats.
+#
+# Šis fails ir tukšs. Visu kodu raksti pats zem šīs rindas.
+# ----------------------------------------------------------------------                                                                                                Sarakstu, kurā glabā atzīmes, nosauc ar vārdu atzimju_saraksts.
+
+saraksts=[2,5,765,78,44,12,1]
+skaits=len(saraksts)
+print("Skaits=",skaits)
+summa=sum(saraksts)
+print("Summa=",summa)
+videjais=sum(saraksts)/len(saraksts)
+print("Vidējais=",videjais)
+augstakais=max(saraksts)
+print("Augstākais=",augstakais)
+zemakais=min(saraksts)
+print("Zemākais:",zemakais)
