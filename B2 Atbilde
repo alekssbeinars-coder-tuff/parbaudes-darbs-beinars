@@ -8,9 +8,6 @@
 # ----------------------------------------------------------------------                                                                                                Virs funkcijas pievieno komentāru # atlaide procentos.
 
 def ar_atlaidi(cena, atlaide=10):
-    ar_atlaidi=cena*(1-atlaide/100)
-    return ar_atlaidi
+    return cena*(1-atlaide/100)
 print(ar_atlaidi(200))
 print(ar_atlaidi(200, 25))
-
-    # TODO: atdod cenu pēc atlaides
