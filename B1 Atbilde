@@ -10,10 +10,7 @@
 n = 5
 summa = 0
 i = 1
-print("Skaitisana sakas")
 while i <= n:
     summa=i+summa
     i=i+1
     print("Summa:", summa)
-
-    # TODO: pieskaiti i summai un palielini i par vienu
